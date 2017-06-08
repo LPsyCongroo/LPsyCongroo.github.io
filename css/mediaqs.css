@@ -1,0 +1,106 @@
+/****************** MEDIA QUERIES *********************/
+@media screen and (min-width: 500px){
+	html{
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-width: 600px){
+	html{
+		font-size: 18px;
+	}
+
+	/**************** ABOUT*****************/
+
+	#about #mobile{
+		display: none;
+	}
+	#tablet{
+		display: block;
+	}
+	#flex {
+		margin: auto;
+		width: 100%;
+		height: calc(100vh - 6rem);
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		align-content: space-around;
+	}
+	#flex img{
+		flex-grow:1;
+		display: block;
+		width: 40%;
+		margin: 0;	
+		padding: 0 5%;
+		max-height: 100%;
+	}
+	#flex p{
+		flex-grow:1;
+		display: block;
+		width: auto;
+		margin: 0;
+		padding-left: 5%;
+	}
+
+	/************** PROJECTS***************/
+	article figure img{
+		width: 70%;
+		float: left;
+	}
+	figcaption{
+		width: calc(25% - 2px);
+		margin-left: 5%;
+		margin-top: 0.5rem;
+		float: left;
+		text-align: center;
+	}
+	figcaption a{
+		margin: 0;
+		display: block;
+	}
+	figcaption a .fa{
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+	article p{
+		clear: left;
+	}
+}
+
+@media screen and (min-width: 800px){
+	html{
+		font-size: 22px;
+	}
+	/*************** PROJECTS ***************/
+
+	article figure{
+		width: 50%;
+		margin: 0;
+		float: left;
+	}
+	article figure img{
+		width: 100%;
+		max-width: 600px;
+		float: none;
+	}
+	figcaption{
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	figcaption a{
+		display: inline;
+		margin: 0 10%
+	}
+	figcaption a .fa{
+		font-size: 1rem;
+		margin: 0;
+	}
+	article p{
+		margin: 0 2%;
+		max-width: 46%; 
+		float: left;
+		clear: none;
+	}
+}
