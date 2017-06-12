@@ -200,12 +200,6 @@ section{
 #projects h3:hover{
 	background: #111;
 }
-#projects a +p{
-	color: #BAB2AA;
-	text-align: center;
-	padding: 1em 0;
-	font-style: italic;
-}
 article{
 	margin: auto;
 	padding: 0 5%;
@@ -231,6 +225,8 @@ input:checked + article label h3{
 article figure img{
 	margin: 0.5rem auto;
 	width: 100%;
+	box-sizing: border-box;
+	border: solid white 2px;
 }
 
 figcaption{
