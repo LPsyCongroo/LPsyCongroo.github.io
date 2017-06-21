@@ -44,7 +44,7 @@ h3:hover{
 	transform: translateX(1rem);
 }
 p{
-	color: #BAB2AA;
+	color: #fff;
 	line-height: 1.5rem;
 }
 i + span{
@@ -72,7 +72,8 @@ nav a{
 }
 nav label{
 	padding: 0.5rem 0.5rem 0.5rem 0.4rem;
-	opacity: 0.6;
+	color: white;
+	opacity: 0.3;
 	font-size: 2rem;
 	line-height: 2rem;
 	z-index: 10;
@@ -172,13 +173,30 @@ section{
 	max-height: 100%;
 	margin: 0 20%;
 }
+#paragraphs{
+	height: 100%;
+}
 #about p{
+	font-size: 0.8rem;
 	width: 80%;
 	max-height: 100%;
 	margin: 0.5rem 10% 0;
+	text-align: justify;
+	padding: 0.4rem 0;
 }
-#about p span{
+#about a{
+	color: #BAB2AA;
+	transition-duration: 0.5s;
+}
+#about a:hover{
+	color: rgba(255,255,255,0.3);
+	font-style: italic;
+}
+#hi{
 	font-size: 2rem;
+}
+#parantheses{
+	color: #BAB2AA;
 }
 
 /************* PROJECTS *************/
@@ -189,6 +207,11 @@ section{
 
 #projects{
 	background: #46362E;
+}
+#disclaimer{
+	color: #BAB2AA;
+	text-align: center;
+	margin: 0.8rem 0;
 }
 #projects h3{
 	color: #945434;
@@ -212,6 +235,9 @@ article{
 }
 #projects input{
 	display: none;
+}
+#projects p{
+	font-size: 0.8rem;
 }
 input:checked + article .project-container{
 	display: block;
@@ -243,7 +269,6 @@ figcaption a:hover{
 	color: #1B1919;
 }
 article p{
-	color: #BAB2AA;
 	margin: 0.2rem 0;
 	text-indent: 1em;
 	text-align: justify;
@@ -260,7 +285,7 @@ fieldset{
 	margin: 1rem auto;
 }
 legend{
-	color: #BAB2AA;
+	color: #fff;
 	font-size: 1.1rem;	
 }
 #contact input, textarea{

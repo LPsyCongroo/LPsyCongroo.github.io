@@ -104,3 +104,9 @@
 		clear: none;
 	}
 }
+
+@media screen and (max-height: 30rem){
+	section{
+		min-height: 30rem
+	}
+}
