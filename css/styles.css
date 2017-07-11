@@ -389,3 +389,31 @@ footer p{
 	color: white;
 }
 
+#steinsGate{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	text-align: center;
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(255,0,0,0.5);
+	padding: 10vh 0;
+}
+#steinsGate button{
+	display: block;
+	margin: 0.5em auto 0;
+	padding: 0.5em 1em;
+	font-size: 1rem;
+	border-radius: 5px;
+	border: solid 2px rgba(255,0,0,0.9);
+	outline: none;
+	background: rgba(255,0,0,0.9);
+	color: white;
+}
+#steinsGate button:hover{
+	border: inset 2px;
+}
+
