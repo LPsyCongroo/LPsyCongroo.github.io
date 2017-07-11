@@ -1,4 +1,4 @@
-(function(){
+//(function(){
 
     // The following is for Future Gadget Lab Members only.
 
@@ -22,4 +22,4 @@
         readingSteiner.style.display = "none";
     });
 
-})();
+//})();
