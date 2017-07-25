@@ -367,7 +367,7 @@ legend{
 	border-radius: 50%;
 }
 .square:hover{
-	background: #1B1919;
+	background: rgba(27,25,25,1);
 }
 .square a:focus{
 	outline: none;
